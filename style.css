@@ -1,0 +1,297 @@
+*{
+    margin: 0; 
+    padding:0; 
+	box-sizing: border-box;
+	text-decoration:none;
+	scroll-behavior: smooth;
+	font-family: 'Raleway', sans-serif;
+}
+
+#navbar {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+	background-color: white;
+	overflow: hidden;
+	position: fixed;
+}
+
+#navbar a:link {
+	color: black;
+}
+
+#navbar :visited {
+	color: black;
+} 
+
+#navbar a:hover {
+	color: #EB5424;
+}
+  
+#navbar a :active {
+	color: #EB5424;
+}
+
+#home {
+	background-image: url(/bg.jpg);
+	background-size: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	padding: 100px;
+}
+
+.logo {
+	width: 50%;
+	height: 100px;
+}
+.logo p {
+	font-family: 'Monoton', cursive;
+	font-size: 35px;
+	line-height: 100px;
+    padding-left: 50px;
+}
+
+.menu {
+	width: 50%; 
+	height: 100px;
+}
+
+.menu ul {
+	width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	align-items:  center;
+}
+
+.menu ul li {
+	list-style: none;
+	font-size: large;
+}
+
+
+.main {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.title {
+	font-size: 70px;
+	color: grey;
+}
+
+.sub-title {
+	font-size: 40px;
+	color: #EB5424;
+}
+
+.about {
+	font-size: 18px;
+	color: dimgrey;
+}
+
+.start-btn {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #EB5424;
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+	border: none;
+	border-radius: 3px;
+	transition: color 1s,background-color 1s;
+}
+
+.start-btn:hover {
+	background-color: white;
+	color: #EB5424;
+}
+
+#aboutme {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.profile {
+	width: 50%;
+	height: auto;
+	color: #606060;
+}
+
+.head{
+	color: #303030;
+	font-size: 60px;
+	padding-bottom: 40px;
+	padding-top: 170px;
+	padding-left: 100px;
+	text-transform: uppercase;
+}
+
+.info {
+	display: flex;
+	font-size: 17.5px;
+}
+
+.col1 {
+	width: 50%;
+	height: auto;
+	margin-left: 15%;
+}
+
+.col2 {
+	width: 50%;
+	height: auto;
+	margin-left: -20%;
+}
+
+.skill {
+	width: 50%;
+	height: auto;
+	font-size: 17.5px;
+	color: #606060;
+}
+
+.head2 {
+	color: #303030;
+	font-size: 60px;
+	padding-bottom: 40px;
+	padding-top: 170px;
+	text-transform: uppercase;
+}
+
+progress{
+	width: 350px;
+	height: 12.5px;
+	background-color: #EB5424;
+}
+
+#certification {
+	background-color: #F8F8F8;
+}
+
+#certification ul {
+	width: 50%;
+	margin-top: 50px;
+	margin-bottom: 35px;
+	position: center;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+
+#certification img {
+	justify-content: space-around;
+	transition: width 1.5s,height 1.5s,transform 1.5s;
+}
+
+#certification img:hover {
+	width: 530px;
+	height: 340px;
+	transform: rotate(360deg);
+}
+
+.head3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.head4 {
+	margin-left: 75px;
+	font-size: 50px;
+	color: black;
+}
+
+#work .projects {
+	margin-left: 75px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: #606060;
+	font-weight: bold;
+}
+
+#work img {
+	border-radius: 12px;
+	border: solid;
+	border-color: black;
+}
+
+#contact {
+	background-color: #F8F8F8;
+}
+
+.head5 {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 100px;
+}
+
+#contact div {
+	text-align: center;
+  	padding-top: 80px;
+  	padding-bottom: 40px;
+}
+
+#contact input {
+	background: transparent;
+  	border: 1px solid #666;
+  	border-radius: 2px;
+	margin-bottom: 10px;
+	transition: all 1s;
+} 
+
+.I1,.I2 {
+	width: 450px;
+	height: 35px;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.I3 {
+	width: 905px;
+	height: 35px;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.I4 {
+	background: transparent;
+	width: 905px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 15px;
+	padding-top: 10px;
+	transition: all 1s;
+}
+
+#contact input:focus,
+#contact input:hover {
+  background: black;
+  color: white;
+}
+
+.I4:focus,
+.I4:hover {
+	background: black;
+  	color: white;
+}
+
+.sub {
+	background: transparent;
+	font-size: 14px;
+  	border: 1px solid #666;
+  	border-radius: 2px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 7px;
+	padding-right: 300px;
+	padding-bottom: 7px;
+	padding-left: 300px;
+}
